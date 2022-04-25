@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1140px;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    display: inline-block;
+    text-align: center;
+    color: black;
+    margin: 0 15px 0 15px;
+    font-size: 25px;
+}
+
+h4:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+nav {
+    
+    margin: 40px 30% 20px 30%;
+    font-size: 20px;
+    text-align: center;
+}
+
+ion-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.calcSection {
+    width:80%;
+    margin:40px auto 0 auto;
+}
+
+.calculate {
+    width: 400px;
+    float: left;
+
+    padding: 30px;
+    background-color: #01214F;
+    border-radius: 18px;
+    margin-left: 4.1%;
+    margin-bottom: 30px;
+    
+}
+
+.calculate:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 30px 0 rgba(0, 0, 0, 0.259);
+}
+
+input {
+    border: 1px solid black;
+    width:100%;
+    height: 25px;
+    border-radius: 3px;
+}
+
+button {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+}
+
+
+.design-box img {
+    margin-top: 30px;
+    width:50%;
+    height: auto;
+    float: left;
+    opacity: 0.85;
+    transition: transform 0.5s, opacity 0.5s;
+    filter: brightness(99%);
+}
+
+.design-box img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    opacity: 1;
+    filter: brightness(100%);
+    transition: transform 0.5s, opacity 0.5s;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.138), 0 0 30px 0 rgba(0, 0, 0, 0.147);
+}

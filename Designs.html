@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type = "text/javascript" src="main.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Designs</title>
+</head>
+
+
+<body>
+    <nav>
+        <ion-icon name="prism-outline" data-aos="zoom-in"></ion-icon>
+        <div class="menu">
+            <a href="Math.html"><h4>Math</h4></a>  
+            <a href="Designs.html"><h4>Designs</h4></a>
+            <a href="Games.html"><h4>Games</h4></a>
+        </div>
+    </nav>
+
+    <div class="clearfix"></div>
+
+    <section class="designs">
+        <div class="design-box">
+            <a href="https://jakobmayer.github.io/ResponsiveWebDesign2020/index.html"><img src="Bilder/Whisky.png"></a>
+            
+        </div>
+    </section>
+
+    
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once:true,
+            offset: 250,
+            duration: 600,
+            delay: 200,
+            disable: function () {
+                var maxWidth = 700;
+                return window.innerWidth < maxWidth;
+            }
+        });
+        </script>
+
+    
+</body>
+</html>
