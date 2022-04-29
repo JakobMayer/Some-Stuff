@@ -14,5 +14,16 @@ function calculateInterest() {
     
     result = document.getElementById("resultInterest");
     result.innerHTML = ergebnis.toFixed(2) + "€";
+}
 
+function calculateDezimal(){
+    binärZahl = document.getElementById("binär").value;
+    result = document.getElementById("resultDezimal");
+    result.innerHTML = parseInt(binärZahl, 2);
+}
+
+function calculateBinär(){
+    dezimalZahl = document.getElementById("dezimal").value;
+    result = document.getElementById("resultBinär");
+    result.innerHTML = (dezimalZahl >>> 0).toString(2);
 }
